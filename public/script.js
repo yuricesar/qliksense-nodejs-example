@@ -1,7 +1,7 @@
 var config = {
 	host: "",
-	prefix: "",	//this should be the name of the virtual proxy. For example "/nodeexample/"
-	port: "",	//as of Sense version 2.0 this should be a string not an integer
+	prefix: "",	//esse deve ser o nome do virtual proxy, exemplo "/custom/"
+	port: "",	//deve ser string
 	isSecure: window.location.protocol === "https:"
 };
 
